@@ -102,7 +102,7 @@ Ms('#h-butt').style.transform = 'rotate(0)';
 Ms('#h-butt').addEventListener('click', () => {
 	Ms('aside').style.transform = Ms('aside').style.transform == 'scale(1, 1)' ? 'scale(0, 0)' : 'scale(1, 1)';
 	Ms('#h-butt').style.transform = Ms('#h-butt').style.transform == 'rotate(180deg)' ? 'rotate(0)' : 'rotate(180deg)';
-})
+}, false);
 
 
 
